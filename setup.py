@@ -24,8 +24,9 @@ setup(
         'sphinx_rtd_theme'
     ],
     project_urls={
-        'Documentation': 'docs',
-        'Example': 'example-usage'
+        'Source code': 'https://github.com/Mercurlc/Signature-Classifier',
+        'Documentation': 'https://signature-classifier.readthedocs.io/en/latest/',
+        'Example usage': 'https://github.com/Mercurlc/Signature-Classifier/blob/main/example-usage/example.py'
       },
     classifiers=[
         'Programming Language :: Python :: 3',
