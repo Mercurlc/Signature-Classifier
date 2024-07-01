@@ -5,3 +5,4 @@ pandas
 scikit-image
 scikit-learn
 seaborn
+sphinx

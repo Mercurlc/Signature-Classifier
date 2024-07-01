@@ -17,7 +17,8 @@ setup(
         'pandas',
         'scikit-image',
         'scikit-learn',
-        'seaborn'
+        'seaborn',
+        'sphinx'
     ],
     project_urls={
         'Documentation': 'docs',
