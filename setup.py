@@ -19,6 +19,10 @@ setup(
         'scikit-learn',
         'seaborn'
     ],
+    project_urls={
+        'Documentation': 'docs',
+        'Example': 'example-usage'
+      },
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

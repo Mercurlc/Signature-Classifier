@@ -70,27 +70,6 @@ class SignatureVerification:
         Saves the hyperparameters.
     _load_params()
         Loads the hyperparameters.
-
-    Example usage
-    -------------
-    # Step 1: Optimize hyperparameters and train final model
-    verification = SignatureVerification('dataset/custom/full', 'storage', verbose=True)
-    verification.optimize_hyperparameters(n_trials=50)
-    verification.train_final_model()
-
-    # Step 2: Train final model with custom parameters
-    custom_params = {
-        'resize_shape': (128, 256),
-        'nns': 3,
-        'orientations': 12,
-        'cells_per_block': 3,
-        'pixels_per_cell': 16,
-    }
-    verification.train_final_model(params_dict=custom_params, save_plots=True)
-
-    # Step 3: Predict using the trained model
-    predictions = verification.predict('/home/arefievam/repos/signature/dataset/custom/full/022_forg/022_forg_15.png')
-    print(predictions)
     """
 
     def __init__(self, dataset_path: str, storage_path: str, verbose: bool = False) -> None:
