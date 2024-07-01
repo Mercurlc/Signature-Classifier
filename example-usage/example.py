@@ -3,7 +3,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../signature-classifier')))
 
-from main import SignatureVerification
+from signature_classifier import SignatureVerification
 
 #First case, using custom params(very faster):
 
