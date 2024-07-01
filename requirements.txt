@@ -6,3 +6,5 @@ scikit-image
 scikit-learn
 seaborn
 sphinx
+sphinx-autobuild
+sphinx_rtd_theme

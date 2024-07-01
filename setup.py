@@ -18,7 +18,10 @@ setup(
         'scikit-image',
         'scikit-learn',
         'seaborn',
-        'sphinx'
+        'sphinx',
+        'sphinx',
+        'sphinx-autobuild',
+        'sphinx_rtd_theme'
     ],
     project_urls={
         'Documentation': 'docs',
